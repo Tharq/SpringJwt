@@ -1,1 +1,22 @@
-spring.application.name=springJwt
+spring:
+  application:
+    name: springJwt
+  data:
+    mongodb:
+      port: 27017
+      host: localhost
+      database: College
+  mail:
+    host: smtp.gmail.com
+    port: 465
+    username: bharanitharan170802@gmail.com
+    password: bsooflgcneoxsdgx
+    properties:
+      mail:
+        smtp:
+          auth: true
+          ssl:
+            enable: true
+
+server:
+  port: 1234
